@@ -10,6 +10,14 @@ class Home extends BaseController
 		);
 		return view('template/adminbsb/main',$data);
 	}
+	public function adminlte()
+	{
+		$data=array(
+			'title'=>'ภาพรวม',
+			'content'=>view('user/userForm'),
+		);
+		return view('template/adminlte/main',$data);
+	}
 
 	//--------------------------------------------------------------------
 
