@@ -5,7 +5,7 @@ $menuData=array(
     array(
     'text'=>'หน้าหลัก',
     'bullet'=>'home',
-    'url'=>'./#',
+    'url'=>site_url(),
     'cond'=>true,
     'items'=>array(
             'main2'=>array(
@@ -16,7 +16,7 @@ $menuData=array(
         ),
     ),
     array(
-        'text'=>'ตัั้งค่า',
+        'text'=>'ตั้งค่า',
         'bullet'=>'settings',
         'url'=>'./setting',
         'cond'=>true,
