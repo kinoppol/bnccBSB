@@ -8,6 +8,11 @@ $menuData=array(
     'url'=>site_url(),
     'cond'=>true,
     'items'=>array(
+        'main1'=>array(
+            'text'=>'หน้าหลัก 1',
+            'url'=>site_url(),
+            'cond'=>true,
+        ),
             'main2'=>array(
                 'text'=>'หน้าหลัก 2',
                 'url'=>site_url('home/adminlte'),
